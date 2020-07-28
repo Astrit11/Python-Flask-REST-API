@@ -7,6 +7,8 @@ run this project by installing:
 
 -**Python 3.8.5 on youre local machine// 
 And then:
+
+
 -**pip install flask//
 
 -**pip install flask-rest-api//
@@ -21,9 +23,14 @@ And then:
 
 then you should type in terminal, on youre working directory(pycharm or vscode):
 -**python
+
+
 -**from app import db//
+
 -**db.create all()//
+
 This should create youre DB 
 
 -Now youre ready to start youre project:
+
 **python app.py// 
