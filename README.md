@@ -1,9 +1,13 @@
 ### Python-Flask-REST-API
 <<<<<<< HEAD
+<<<<<<< HEAD
 Backend 
 =======
 ##Backend 
 >>>>>>> Update README.md
+=======
+##Backend 
+>>>>>>> ea303330b76dd48bffe1b9f7422314e6db1574ed
 
 ##Development setup 🛠
 ###Database 
