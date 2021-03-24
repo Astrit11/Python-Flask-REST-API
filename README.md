@@ -1,36 +1,30 @@
 ### Python-Flask-REST-API
+<<<<<<< HEAD
 Backend 
+=======
+##Backend 
+>>>>>>> Update README.md
 
-run this project by installing:
--**SQLite//
+##Development setup 🛠
+###Database 
+Download dbsqlite:https://www.sqlite.org/download.html
 
-
--**Python 3.8.5 on youre local machine// 
-And then:
-
-
--**pip install flask//
-
--**pip install flask-rest-api//
-
--**pip install SQLAlchemy//
-
--**pip install Flask-SQLAlchemy//
-
--**pip install marshmallow//
-
--**pip install marshmallow-sqlalchemy//
-
-then you should type in terminal, on youre working directory(pycharm or vscode):
--**python
+###Python 
+Have Python 3.8 installed and in PATH.
+Installing Python: https://realpython.com/installing-python/
 
 
--**from app import db//
+```sh
 
--**db.create all()//
+pip install flask flask-rest-api SQLAlchemy Flask-SQLAlchemy marshmallow marshmallow-sqlalchemy
 
-This should create youre DB 
+python 
 
--Now youre ready to start youre project:
-
-**python app.py// 
+```
+```sh
+from app import db
+  db.create all()
+```
+```sh
+python app.py
+```
