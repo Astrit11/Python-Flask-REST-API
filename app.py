@@ -97,7 +97,12 @@ def get_Users():
 def get_Adminsitrators():
   all_Administrators = Administrator.query.all()
   result = administrators_schema.dump(all_Administrators)
-  return jsonify(result)
+  if not all_Administrators:
+    return jsonify({'msg':'No administrators found'}),400
+
+  if all_Administrators is not None:
+    return jsonify(result),200
+
 
 # Get Single Users
 @app.route('/user/<id>', methods=['GET'])
