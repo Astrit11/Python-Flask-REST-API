@@ -1,17 +1,12 @@
 ### Python-Flask-REST-API
-<<<<<<< HEAD
-<<<<<<< HEAD
-Backend 
+##Backend 
 =======
 ##Backend 
->>>>>>> Update README.md
-=======
-##Backend 
->>>>>>> ea303330b76dd48bffe1b9f7422314e6db1574ed
 
 ##Development setup 🛠
 ###Database 
 Download dbsqlite:https://www.sqlite.org/download.html
+
 
 ###Python 
 Have Python 3.8 installed and in PATH.
